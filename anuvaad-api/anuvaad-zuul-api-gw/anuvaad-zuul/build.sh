@@ -1,7 +1,8 @@
 #!/bin/bash
-export JAVA_HOME=/data/jdk-11.0.2
-export MAVEN_HOME=/data/apache-maven-3.8.3
+export JAVA_HOME=/usr/lib/jvm/java-17-amazon-corretto.x86_64
+export MAVEN_HOME=/usr/bin/mvn
 mvn -version
+java --version
 mvn compile
 mvn clean install
 
