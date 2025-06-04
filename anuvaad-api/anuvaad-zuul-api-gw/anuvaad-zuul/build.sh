@@ -1,6 +1,6 @@
 #!/bin/bash
 export JAVA_HOME=/usr/lib/jvm/java-17-amazon-corretto.x86_64
-export MAVEN_HOME=/usr/bin/mvn
+#export MAVEN_HOME=/usr/bin/mvn
 mvn -version
 java --version
 mvn compile
